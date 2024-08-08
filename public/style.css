@@ -1,0 +1,50 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.logo h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#menus a:hover{
+    color: white !important;
+
+}
+#aboutform hr,
+#educationform hr,
+#experienceform hr{
+    color: rgba(0, 0, 0, 0.5);
+    width: 90%;
+}
+
+#aboutform .profile-image{
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+#aboutform input[type="file"]{
+    height: 40px;
+    width: 150px !important;
+    z-index: 1;
+    opacity: 0%;
+}
+
+#aboutform .uplaod-overlap{
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+    z-index: 0;
+    width:150px ;
+    
+}
+
+#aboutform textarea,
+#educationform textarea,
+#experienceform textarea{
+    resize:none ;
+}
+
+::placeholder{
+    color: rgb(180, 180, 180) !important;
+}
+input[type="date"]{
+    color:rgb(180, 180, 180) !important;
+}
