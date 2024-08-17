@@ -5,7 +5,16 @@
 }
 #menus a:hover{
     color: white !important;
-
+}
+#menus li.active{
+    background: rgb(13,202,240) !important;
+    margin: 10px;
+    border-radius: 20px;
+      
+}
+#menus li.active a,
+#menus li.active i{
+    color: white !important;
 }
 #aboutform hr,
 #educationform hr,
@@ -48,3 +57,4 @@
 input[type="date"]{
     color:rgb(180, 180, 180) !important;
 }
+
